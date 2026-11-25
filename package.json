@@ -1,0 +1,44 @@
+
+{
+  "name": "oauth2orize_ciba",
+  "version": "0.0.0",
+  "description": "CIBA exchange for OAuth2orize.",
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "ciba"
+  ],
+  "author": {
+    "name": "Denis Rylikov",
+    "email": "denis.rylikov@protonmail.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/oauth2orize_ciba.git"
+  },
+  "bugs": {
+    "url": "http://github.com/drylikov/oauth2orize_ciba/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "uid2": "^1.0.0",
+    "utils-merge": "^1.0.0"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0",
+    "chai-connect-middleware": "^0.3.1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
